@@ -119,15 +119,15 @@ body{
 .input-button{
     background-color: white;border: none;
     border-radius: 0;
-    margin-top: -1px;
-    margin-bottom: 1px;
+    height: 55px;
+    margin-top: -2px;
 }
 
 .btn-1{
     width: 30%;
     padding:1rem;
     top: 50px;
-    margin-bottom: 38px;
+    margin-top: -5px;
     color: black;
     font-weight: 500;
     background-color: white;
@@ -584,7 +584,7 @@ input[type=range]::-webkit-slider-thumb {
   
   .toggle-icon{
     position: absolute;
-    top: -60px;
+    top: -50px;
     left:5px;
     background-color:white !important;
     display: inline-block;
@@ -596,7 +596,7 @@ input[type=range]::-webkit-slider-thumb {
     justify-content: center; /* added this line */
     align-items: center;
   }
-  .dropdown-button{
+  .dropdown-toggle{
     font-size: 0;
   }
   .form-control::placeholder {

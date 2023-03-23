@@ -64,7 +64,7 @@ textarea::placeholder{
 
 }
 
-.btn-1{
+.hero-btn{
     background-color: #0054A6;
     outline: none;
     border: none;
@@ -326,7 +326,7 @@ body {
 .form-row input{
     height: 55px;
 }
-.form-group .form-control{
+.form-group .footer-form-control{
     height: 150px;
 }
 .location{
