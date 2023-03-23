@@ -796,7 +796,6 @@
                 <div class="card mb-4">
                  
                 <img src="futureoffice.jpg" class="img-fluid ">
-                <div span class="badge rental-badge badge-danger ">RENTELS</span></div>
                 <div class="card-body">
                   <div class="date text-muted">
                     Dec 16, 2022
@@ -815,7 +814,6 @@
               <div class="swiper-slide">
                 <div class="card mb-4">
                   <img src="interiordesign.jpg" class="img-fluid">
-                  <div span class="badge rental-badge badge-danger">CREATIVE</span></div>
                   <div class="card-body">
                     <div class="date text-muted">
                       Dec 16, 2022
@@ -834,7 +832,6 @@
               <div class="swiper-slide">
                 <div class="card mb-4">
                   <img src="kitchen.jpg" class="img-fluid">
-                  <div span class="badge rental-badge badge-danger">RENTELS</span></div>
                   <div class="card-body">
                     <div class="date text-muted">
                       Dec 16, 2022
@@ -853,7 +850,6 @@
               <div class="swiper-slide">
                 <div class="card mb-4">
                   <img src="futureoffice.jpg" class="img-fluid futureoffice">
-                  <div span class="badge rental-badge badge-danger">RENTELS</span></div>
                   <div class="card-body">
                     <div class="date text-muted">
                       Dec 16, 2022
@@ -1004,6 +1000,9 @@
       </div>
     </div>
   </div>
+  <button onclick="scrollToTop()" id="scroll-to-top-btn">
+    <i class="fas fa-arrow-up"></i>
+  </button>  
 <!-- AOS js -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
@@ -1128,6 +1127,24 @@
       saleBtn.classList.add('active');
       rentBtn.classList.remove('active');
       });
+
+  </script>
+  <script>
+    function scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    }
+
+    window.addEventListener("scroll", function() {
+      var scrollBtn = document.getElementById("scroll-to-top-btn");
+      if (window.pageYOffset > 100) {
+        scrollBtn.style.display = "block";
+      } else {
+        scrollBtn.style.display = "none";
+      }
+    });
 
   </script>
 </body>
