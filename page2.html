@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <!-- Aos animation css link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>FullWidthList</title>
+    <link rel="stylesheet" href="page2.css">
+</head>
+<body>
+    <a href="index.html">Home</a>
+    <div class="col-lg-12 col-sm-6">
+        <div class="dropdown-1">
+            <h2 style="margin-left: 100px;">Home / <strong>Listing</strong></h2>
+            <h1 style="margin-left: 100px;">Listing Full Width List</h1>
+            <div class="row-buttons">
+                <div class="input-group">
+                  <div class="d-flex align-items-center">
+                    <button class="btn dropdown-toggle" type="button"  id="dropdown-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Location</button>
+                    <div class="dropdown-menu me-2" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Austin</a>
+                      <a class="dropdown-item" href="#">Boston</a>
+                      <a class="dropdown-item" href="#">Chicago</a>
+                      <a class="dropdown-item" href="#">Denver</a>
+                      <a class="dropdown-item" href="#">Los Angeles</a>
+                      <a class="dropdown-item" href="#">New York</a>
+                      <a class="dropdown-item" href="#">San Francisco</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="input-group">
+                  <div class="d-flex align-items-center" style="padding: 10px;">
+                    <button class="btn dropdown-toggle" type="button"  id="dropdown-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Any Price</button>
+                    <div class="dropdown-menu me-2" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">High</a>
+                      <a class="dropdown-item" href="#">Low</a>
+                      <a class="dropdown-item" href="#">Medium</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="input-group">
+                    <div class="d-flex align-items-center">
+                        <button class="btn dropdown-toggle" type="button" id="dropdown-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">House</button>
+                        <div class="dropdown-menu me-2" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">House</a>
+                          <a class="dropdown-item" href="#">Hotel</a>
+                          <a class="dropdown-item" href="#">Motel</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="" style="width: 100%;">
+                      <button class="btn dropdown-toggle" type="button"  id="dropdown-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-left: 10px;">All Status</button>
+                      <div class="dropdown-menu me-2" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Austin</a>
+                        <a class="dropdown-item" href="#">Boston</a>
+                        <a class="dropdown-item" href="#">Chicago</a>
+                        <a class="dropdown-item" href="#">Denver</a>
+                        <a class="dropdown-item" href="#">Los Angeles</a>
+                        <a class="dropdown-item" href="#">New York</a>
+                        <a class="dropdown-item" href="#">San Francisco</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="input-group">
+                    <div class="d-flex align-items-center" style="padding: 10px;">
+                      <button class="btn dropdown-toggle" type="button"  id="dropdown-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Area</button>
+                      <div class="dropdown-menu me-2" aria-labelledby="dropdownMenuButton">
+                         <a class="dropdown-item" href="#">High</a>
+                         <a class="dropdown-item" href="#">Low</a>
+                         <a class="dropdown-item" href="#">Medium</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="input-group">
+                      <div class="d-flex align-items-center"  >
+                          <button class="btn dropdown-toggle" type="button"  id="dropdown-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">2+ Beds</button>
+                          <div class="dropdown-menu me-2" aria-labelledby="dropdownMenuButton">
+                             <a class="dropdown-item" href="#">2+ Beds</a>
+                             <a class="dropdown-item" href="#">3+ Beds</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                        <div class="col-lg-4 d-flex align-items-center" style="margin-left: 10px;">
+                            <button class="btn dropdown-toggle" type="button"  id="dropdown-button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+                                More.....
+                            </button>
+                        </div>                     
+                  </div> 
+            </div>          
+            <div class="collapse menu-dropdown dropdown-2" id="collapseExample1">
+                <div class="row" style="margin-top: 10px;margin-left: 5px;">
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="exampleCheckbox" value="">
+                            <label class="form-check-label" for="exampleCheckbox">
+                                Air Conditioning
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="exampleCheckbox" value="">
+                            <label class="form-check-label" for="exampleCheckbox">
+                                Lawn
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="exampleCheckbox" value="">
+                            <label class="form-check-label" for="exampleCheckbox">
+                                Microwave
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="exampleCheckbox" value="">
+                            <label class="form-check-label" for="exampleCheckbox">
+                                Outdoor Shower
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="exampleCheckbox" value="">
+                            <label class="form-check-label" for="exampleCheckbox">
+                                Laundry
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="exampleCheckbox" value="">
+                            <label class="form-check-label" for="exampleCheckbox">
+                                Sauna
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="exampleCheckbox" value="">
+                            <label class="form-check-label" for="exampleCheckbox">
+                                Swimming pool
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="exampleCheckbox" value="">
+                            <label class="form-check-label" for="exampleCheckbox">
+                                TV cable
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="exampleCheckbox" value="">
+                            <label class="form-check-label" for="exampleCheckbox">
+                                Washer
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="exampleCheckbox" value="">
+                            <label class="form-check-label" for="exampleCheckbox">
+                                Wifi
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="exampleCheckbox" value="">
+                            <label class="form-check-label" for="exampleCheckbox">
+                                Window Coverings
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="exampleCheckbox" value="">
+                            <label class="form-check-label" for="exampleCheckbox">
+                                Refrigerator
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="exampleCheckbox" value="">
+                            <label class="form-check-label" for="exampleCheckbox">
+                                Barbeque
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="exampleCheckbox" value="">
+                            <label class="form-check-label" for="exampleCheckbox">
+                                Dryer
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="exampleCheckbox" value="">
+                            <label class="form-check-label" for="exampleCheckbox">
+                                Gym
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 d-inline-flex middle-wrapper">
+        <div class="col-lg-6">
+            <h4  style="display: block;">We found <span style="color: blue;">45</span> properties available for you</h4>
+        </div>
+        <div class="property-list col-lg-6">
+            <div class="d-flex align-items-center">
+              <button class="btn dropdown-toggle" type="button" id="dropdown-button-3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa-solid fa-bars"></i>SortBY:<span style="font-weight: 600;">Top Selling</span></button>
+              <div class="dropdown-menu me-2" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">High</a>
+                <a class="dropdown-item" href="#">Low</a>
+                <a class="dropdown-item" href="#">Medium</a>
+              </div>
+              </button>
+              <button class="btn" id="btn-2"><i class="fa-solid fa-bars"></i></button>
+              <button class="btn" id="btn-2"><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="col-lg-10 col-sm-12">
+                <div class="full-width-card" data-aos="fade-up">
+                    <div class="wrapper-left">
+                        <img class="card-image" src="home1.jpg">
+                    </div>
+                    <div class="wrappper-right">
+                        <div>
+                            <h4>Home in Metric Way</h4>
+                            <span>1421 San Pedro St, Los Angeles</span>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint eos molestias nam minima illum.
+                                 Atque placeat, eligendi consequuntur quibusdam quasi explicabo similique. 
+                                 Quisquam rem voluptatem eligendi corrupti fuga eum nulla!</p>
+                        </div>
+                        <div class="wrapper-footer">
+                            <div>
+                                <i class="fa fa-bath" aria-hidden="true"> 3 Br</i>
+                                <i class="fa fa-shower" aria-hidden="true"> 3 Ba</i>
+                                <i class="fa fa-square" aria-hidden="true"> 2300 sq.ft</i>
+                                <i class="fa fa-car" aria-hidden="true"> 1Gr</i>
+                            </div>
+                            <div>
+                                <h4>$2500/month</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class=" col-lg-10 col-md-12 col-sm-12">
+            <div class="full-width-card" data-aos="fade-up">
+                <div>
+                    <img class="card-image" src="home1.jpg">
+                </div>
+                <div>
+                    <div>
+                        <h4>Home in Metric Way</h4>
+                        <span>1421 San Pedro St, Los Angeles</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint eos molestias nam minima illum. 
+                            Atque placeat, eligendi consequuntur quibusdam quasi explicabo similique. 
+                            Quisquam rem voluptatem eligendi corrupti fuga eum nulla!</p>
+                    </div>
+                    <div class="wrapper-footer" >
+                        <div>
+                            <i class="fa fa-bath" aria-hidden="true"> 3 Br</i>
+                            <i class="fa fa-shower" aria-hidden="true"> 3 Ba</i>
+                            <i class="fa fa-square" aria-hidden="true"> 2300 sq.ft</i>
+                            <i class="fa fa-car" aria-hidden="true"> 1Gr</i>
+                        </div>
+                        <div>
+                            <h4>$2500/month</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" col-lg-10 col-md-12 col-sm-12">
+            <div class="full-width-card" data-aos="fade-up">
+                <div>
+                    <img class="card-image" src="home1.jpg">
+                </div>
+                <div>
+                    <div>
+                        <h4>Home in Metric Way</h4>
+                        <span>1421 San Pedro St, Los Angeles</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint eos molestias nam minima illum. 
+                            Atque placeat, eligendi consequuntur quibusdam quasi explicabo similique. 
+                            Quisquam rem voluptatem eligendi corrupti fuga eum nulla!</p>
+                    </div>
+                    <div class="wrapper-footer" >
+                        <div>
+                            <i class="fa fa-bath" aria-hidden="true"> 3 Br</i>
+                            <i class="fa fa-shower" aria-hidden="true"> 3 Ba</i>
+                            <i class="fa fa-square" aria-hidden="true"> 2300 sq.ft</i>
+                            <i class="fa fa-car" aria-hidden="true"> 1Gr</i>
+                        </div>
+                        <div>
+                            <h4>$2500/month</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-10 col-md-12 col-sm-12">
+            <div class="full-width-card" data-aos="fade-up">
+                <div>
+                    <img class="card-image" src="home1.jpg">
+                </div>
+                <div>
+                    <div>
+                        <h4>Home in Metric Way</h4>
+                        <span>1421 San Pedro St, Los Angeles</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint eos molestias nam minima illum.
+                             Atque placeat, eligendi consequuntur quibusdam quasi explicabo similique. 
+                             Quisquam rem voluptatem eligendi corrupti fuga eum nulla!</p>
+                    </div>
+                    <div class="wrapper-footer" >
+                        <div>
+                            <i class="fa fa-bath" aria-hidden="true"> 3 Br</i>
+                            <i class="fa fa-shower" aria-hidden="true"> 3 Ba</i>
+                            <i class="fa fa-square" aria-hidden="true"> 2300 sq.ft</i>
+                            <i class="fa fa-car" aria-hidden="true"> 1Gr</i>
+                        </div>
+                        <div>
+                            <h4>$2500/month</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-10 col-md-12 col-sm-12">
+            <div class="full-width-card" data-aos="fade-up">
+                <div>
+                    <img class="card-image" src="home1.jpg">
+                </div>
+                <div>
+                    <div>
+                        <h4>Home in Metric Way</h4>
+                        <span>1421 San Pedro St, Los Angeles</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint eos molestias nam minima illum. Atque placeat, eligendi consequuntur quibusdam quasi explicabo similique. Quisquam rem voluptatem eligendi corrupti fuga eum nulla!</p>
+                    </div>
+                    <div class="wrapper-footer">
+                        <div>
+                            <i class="fa fa-bath" aria-hidden="true"> 3 Br</i>
+                            <i class="fa fa-shower" aria-hidden="true"> 3 Ba</i>
+                            <i class="fa fa-square" aria-hidden="true"> 2300 sq.ft</i>
+                            <i class="fa fa-car" aria-hidden="true"> 1Gr</i>
+                        </div>
+                        <div>
+                            <h4>$2500/month</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      
+    <nav id="pagination">
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="#" id="pagination-item"><i class="fa-solid fa-chevron-left"></i></a></li>
+          <li class="page-item"><a class="page-link" href="#" id="pagination-item">1</a></li>
+          <li class="page-item"><a class="page-link" href="#" id="pagination-item">2</a></li>
+          <li class="page-item"><a class="page-link" href="#" id="pagination-item">3</a></li>
+          <li>....</li>
+          <li class="page-item"><a class="page-link" href="# " id="pagination-item">6</a></li>
+          <li class="page-item"><a class="page-link" href="# " id="pagination-item"><i class="fa-solid fa-chevron-right"></i></a></li>
+        </ul>
+    </nav>
+      
+
+    <!--  -->
+    <!-- bootstrap scripts -->
+    <!--  -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+
+    <!-- AOS js -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
