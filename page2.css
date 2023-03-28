@@ -36,8 +36,14 @@ body{
     color: gray;
 }
 
-#btn-2{
+.icon-buttons{
     width: 5%;
+}
+.icon-buttons:focus{
+    box-shadow: none !important;
+    outline: none !important;
+    outline-color: none !important;
+    border: none;
 }
 
 #pagination{
@@ -89,7 +95,20 @@ body{
 }
 
 #dropdown-button-3{
-    width: 100%;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    
+}
+
+.property-list{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; */
+    gap: 5px;
 }
 #dropdown-button-3:hover{
     background-color: transparent !important;
@@ -118,8 +137,16 @@ body{
     color:#0ec6d5 ;
 }
 
+.buttons-dropdown{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
 /* Styles for small screens */
-@media only screen and (max-width: 600px) {
+
+@media screen and (max-width: 991px) {
+    
   .full-width-card {
     display: flex;
     flex-direction: column;
@@ -155,6 +182,7 @@ body{
 
   #pagination{
     margin-left: 80px;
+    width: 20%;
   }
   .middle-wrapper{
     display: flex;
@@ -162,14 +190,41 @@ body{
   }
   .row-buttons{
     flex-wrap: wrap;
+    gap: 5px;
   }
   .input-group{
     width: 50%;
     margin-bottom: 10px;
   }
+
   #dropdown-button-3{
     width: 60% !important;
   }
+  .middle-wrapper{
+    width: 80%;
+  }
+  #more-features{
+    margin-left: -100px !important;
+  }
+  .property-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+  }
+  .list-property{
+    font-size: 16px;
+  }
+
+}
+
+.list-property{
+    display: block;
+}
+
+#pagination{
+    width: 50%;
 }
 
 #dropdown-button-3{
