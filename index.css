@@ -678,7 +678,625 @@ input[type=range]::-webkit-slider-thumb {
   background-color: #9BE0C8;
 }
 
+/* ******************************************** */
+/* qasim css file */
+/* ******************************************** */
+.heading{
+    font-size: 32px;
+    font-weight: 500;
+    padding: 30px;
+}
 
+/* line under heading */
+
+.line2{
+    width: 100px;
+    height: 4px;
+    background-color:#0054a6 ;
+    
+}
+
+input::placeholder{
+    font-size: 15px;
+    font-weight: 500;
+   
+}
+textarea::placeholder{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/******************************************************************/
+                /* hero-section  css start */
+/******************************************************************/
+
+
+.bg-img{
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* description on hero image */
+.description {
+    padding-top: 150px;
+
+   
+
+}
+.description  p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.description  h3{
+    font-size: 42px;
+    font-weight: 500;
+
+}
+.description  h1{
+    font-size: 52px;
+    font-weight: 700;
+}
+.line{
+    width: 200px;
+    height: 4px;
+    border-radius: 40%;
+    background-color:#0054a6;
+
+
+}
+
+.hero-btn{
+    background-color: #0054A6;
+    outline: none;
+    border: none;
+    margin-top: 35px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+
+
+
+/********************************************************************************/
+                 /* what can we help section css start*/
+/*********************************************************************************/
+
+
+.find-home{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+border: none !important;
+box-shadow:0 5px 15px 0 rgba(51,51,51,.08)!important;
+transition: 0.3s;
+
+}
+.find-home:hover{
+    transform: translateY(-20px);
+    
+}
+
+.find-home h5 span{
+    visibility: hidden;
+    color: #d22d3e;
+    display: inline-block;
+    margin-left: 10px;
+    
+    
+    
+}
+.card h5:hover span{
+    visibility: visible;
+}
+.card h5 a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+/********************************************************************************/
+                 /* Featured Neighborhoods section  css Start*/
+/*********************************************************************************/
+
+.cities{
+    filter: brightness(60%);
+    margin-bottom: 10px;
+    overflow: hidden;
+    
+   
+}
+
+.cities img{
+    border-radius: 10px;
+    transition: all 1.5s ease;
+}
+/* image zoom-in effect */
+.cities:hover img{
+    transform: scale(1.5);
+}
+
+
+
+.cityname{
+     position: absolute;
+    bottom: 20px;
+    left: 30px;
+    color: white;
+}
+.price{
+    font-size: 15px;
+    font-weight: 700;
+    
+}
+
+
+
+
+
+/********************************************************************************/
+                 /*HomeID Exclusives section css Start*/
+/*********************************************************************************/
+
+.title{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.subtitle{
+    font-size: 14px;
+font-weight: 600;
+opacity: 0.7;
+}
+.card-price{
+    font-size: 17px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+
+
+
+
+ .card-price .badge-primary{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px !important;
+    height: 22px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+/* // card footer */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    background-color: none;
+}
+.footer .fa{
+    color:#0ec6d5 ;
+}
+
+.badge-danger{
+    position: absolute;
+    top: 115px;
+    left: 30px;
+    padding: 5px!important;
+}
+
+
+ /********************************************************************************/
+                 /*new and articles section css Start*/
+/*********************************************************************************/
+
+.new-articles{
+    padding-top: 90px;
+}
+ .card .learn-more a{
+text-decoration: none;
+color: black;
+
+}
+
+.card-body a{
+    text-decoration: none;
+}
+
+.learn-more{
+font-weight: 500;
+}
+
+.learn-more .fa {
+color: #d22d3e;
+padding-left: 5px;
+
+}
+ .card.futureoffice img{
+    position: relative;
+    border: 5px solid red;
+}
+
+.rental-badge{
+
+    background-color: rgba(0,0,0,.4)!important;
+    position: absolute;
+    top: 32%;
+    
+    
+}
+
+
+
+
+.rental-badge:hover{
+    background-color: #0ec6d5!important;
+}
+.card a{
+    text-decoration: none!important;
+    color: #000;
+}
+
+
+/* //swiper css */
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+ /********************************************************************************/
+                 /*send us message  section css Start*/
+/*********************************************************************************/
+.contact{
+    background-image: url(footerbg.jpg);
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    padding-left: 13%;
+    padding-bottom: 5%;
+    padding-right: 10%;
+    margin-top: 40px;
+   
+}
+
+.form-row input{
+    height: 55px;
+}
+.form-group .footer-form-control{
+    height: 150px;
+}
+.location{
+    background: white;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex;
+    /* margin-top: 20%; */
+   }
+
+   /* draggagle location icon */
+
+   #mydiv {
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    
+  }
+  
+  #mydivheader {
+    padding: 10px;
+    cursor: move;
+    z-index: -1;
+    color:blue;
+  }
+
+/********************************************************************************/
+                 /*footer css Start*/
+/*********************************************************************************/
+
+.footer{
+    color: #9b9b9b!important;
+    font-size: 14px;
+    font-weight: 500;
+}
+.footer a{
+
+    color: #9b9b9b!important;
+text-decoration: none !important;
+
+}
+.footer-heading{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+
+.number{
+    font-weight: 700;
+    font-size: 15px;
+}
+/* ******************************************** */
+
+/* ******************************************** */
+/* ******************************************** */
+/* usama page 2 css file */
+/* ******************************************** */
+body{
+  font-family: "Poppins",sans-serif;
+}
+
+.btn:hover{
+  border: 1px solid gray;
+}
+.btn{
+  height: 50px;
+  width: 150px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.menu-dropdown {
+  width: 100%;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+.form-check{
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.form-check-label{
+  font-size: 16px;
+  margin-left: 10px;
+  margin-top: 5px;
+  color: gray;
+}
+.form-check-input{
+  height: 20px;
+  width: 20px;
+  color: gray;
+}
+
+.icon-buttons{
+  width: 5%;
+}
+.icon-buttons:focus{
+  box-shadow: none !important;
+  outline: none !important;
+  outline-color: none !important;
+  border: none;
+}
+
+#pagination{
+  margin-left: 700px;margin-top: 20px;
+}
+
+#pagination-item{
+  color: black;
+  border: none;
+  font-size: 16px;
+  gap: 15px;
+  font-weight: 500;
+}
+
+#pagination-item:hover,
+#pagination-item:focus{
+  background-color: #0ec6d5;
+  border-radius: 20px;
+}
+
+.card-image{
+  height: 300px;
+}
+
+.full-width-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 100%;
+  border: 0.5px solid gray;
+}
+
+.full-width-card:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  cursor: pointer;
+}
+.dropdown-1{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#dropdown-button{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#dropdown-button-3{
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  
+}
+
+
+#dropdown-button-3:hover{
+  background-color: transparent !important;
+}
+
+.dropdown-2{
+  width: 50%;margin-left: 100px;
+}
+
+.dropdown-3{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 100%;
+}
+
+.middle-container{
+  display: flex;flex-direction: row;justify-content: space-between;align-items: center;
+  width: 80%;
+  margin-left: 100px;
+}
+
+.wrapper-footer{
+  display: flex;flex-direction: row;justify-content: space-between;align-items: center;margin-top: 160px;
+}
+
+.wrapper-footer .fa{
+  color:#0ec6d5 ;
+}
+/* Styles for small screens */
+
+@media screen and (max-width: 991px) {
+  
+.full-width-card {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper-left, .wrappper-right {
+  width: 100%;
+}
+.card-image {
+  width: 100%;
+  height: auto;
+}
+.wrappper-right {
+  padding: 20px;
+}
+.wrapper-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.wrapper-footer div {
+  margin: 10px 0;
+}
+.wrapper-footer i, .wrapper-footer h4 {
+  display: block;
+  margin: 5px 0;
+}
+.wrapper-footer h4 {
+  font-size: 18px;
+  text-align: right;
+}
+
+#pagination{
+  margin-left: 80px;
+  width: 20%;
+}
+.middle-wrapper{
+  display: flex;
+  flex-direction: column;
+}
+.row-buttons{
+  flex-wrap: wrap;
+  gap: 5px;
+}
+#input-group-2{
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+#dropdown-button-3{
+  width: 60% !important;
+}
+.middle-wrapper{
+  width: 80%;
+}
+#more-features{
+  margin-left: -100px !important;
+}
+.property-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+.list-property{
+  font-size: 16px;
+}
+
+}
+
+.list-property{
+  display: block;
+}
+
+#pagination{
+  width: 50%;
+}
+
+#dropdown-button-3{
+  width: 30%;
+}
+
+.row-buttons{
+  display: flex;
+  align-items: center;
+  padding: 0;
+  width: 50%;
+}
 
 
 
