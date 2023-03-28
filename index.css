@@ -414,16 +414,13 @@ input[type=range]::-webkit-slider-thumb {
   .input-group{
     position: relative;
   }
+  .dropdown-toggle-3{
+    top: 10px;
+
+  }
   .toggle-icon{
     position: absolute;
-    /* top: 100% !important; */
     left: 50%;
-    transform: translate(0, -25%);
-    background-color: white !important;
-    display: inline-block;
-    height: 20px;
-    width: 50px;
-    border: 1px solid white;
     border-radius: 0;
     text-align: center;
     line-height: 50px; /* changed from 10px to 50px */
@@ -473,6 +470,10 @@ input[type=range]::-webkit-slider-thumb {
   #nav-link-1{
     color: white;
     font-weight: 100;
+  }
+  .dropdown-toggle-2{
+    top: 10%;
+    border: white;
   }
 }
 
@@ -535,9 +536,6 @@ input[type=range]::-webkit-slider-thumb {
     display: block;
   }
   
-  .form-control:focus {
-    margin-left: 100px;
-  }
   #nav-1{
     background-color: #1e1d85;
   }
@@ -566,40 +564,55 @@ input[type=range]::-webkit-slider-thumb {
     display: none;
   }
   
-  /* Make the input field full width */
-  .input-group {
-    width: 100%;
-    position: relative;
-  }
-  
-  /* Move the toggle icon inside the input field */
-  .input-group-addon {
-    border: none;
-    padding: 0;
-  }
 
   .dropdown-toggle::after{
     display: none;
   }
+
+  .form-control{
+    position: absolute;
+  }
   
   .toggle-icon{
-    position: absolute;
-    top: -50px;
-    left:5px;
-    background-color:white !important;
+    top: -8px;
+    left: 13px;
+    height: 56px;
+    width: 35px;
+    background-color: white;
     display: inline-block;
     font-size: 25px;
-    border: 1px solid white;
-    height: 35px;
-    width: 50px;
     display: flex; /* added this line */
     justify-content: center; /* added this line */
     align-items: center;
+    position: relative;
+  }
+  .btn:focus{
+    box-shadow: none !important;
+  }
+  .toggle-icon:focus{
+    outline: none !important;
+    outline-color: none !important;
+    border-color: none !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+  .toggle-icon:active{
+    outline: none !important;
+    outline-color: none !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+  .dropdown-toggle-3:focus{
+    border-color: transparent !important;
+    outline: none !important;
+    outline-color:none !important;
   }
   .dropdown-toggle{
-    font-size: 0;
-    border: 0;
-    border-radius: 0;
+    display: none;
+  }
+  .btn.dropdown-toggle-2:hover {
+    background-color: transparent !important;
+    border-color: transparent !important;
   }
   .form-control::placeholder {
     text-align: center;
