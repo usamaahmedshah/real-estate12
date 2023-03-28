@@ -1071,14 +1071,9 @@ text-decoration: none !important;
 /* ******************************************** */
 /* usama page 2 css file */
 /* ******************************************** */
-body{
-  font-family: "Poppins",sans-serif;
-}
 
-.btn:hover{
-  border: 1px solid gray;
-}
-.btn{
+
+.btn-4{
   height: 50px;
   width: 150px;
   font-size: 16px;
