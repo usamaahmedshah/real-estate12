@@ -103,13 +103,7 @@ body{
     
 }
 
-.property-list{
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center; */
-    gap: 5px;
-}
+
 #dropdown-button-3:hover{
     background-color: transparent !important;
 }
@@ -135,13 +129,6 @@ body{
 
 .wrapper-footer .fa{
     color:#0ec6d5 ;
-}
-
-.buttons-dropdown{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 10px;
 }
 /* Styles for small screens */
 
@@ -192,7 +179,7 @@ body{
     flex-wrap: wrap;
     gap: 5px;
   }
-  .input-group{
+  #input-group-2{
     width: 50%;
     margin-bottom: 10px;
   }
