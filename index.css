@@ -25,6 +25,7 @@ body{
 
 .nav-link{
   font-weight: 500;
+  font-size: 18px;
 }
 
 .nav-link:active {
