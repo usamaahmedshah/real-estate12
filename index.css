@@ -1116,7 +1116,7 @@ text-decoration: none !important;
 }
 
 #pagination{
-  margin-left: 700px;margin-top: 20px;
+  margin-top: 50px;
 }
 
 #pagination-item{
@@ -1138,9 +1138,12 @@ text-decoration: none !important;
   cursor: pointer;
 }
 .dropdown-1{
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 5px;
   padding: 10px;
+}
+
+.top-section{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 #dropdown-button{
@@ -1178,10 +1181,6 @@ text-decoration: none !important;
   display: block;
 }
 
-#pagination{
-  width: 50%;
-}
-
 #dropdown-button-3{
   width: 30%;
 }
@@ -1196,10 +1195,6 @@ text-decoration: none !important;
 
 @media screen and (max-width: 991px) {
 
-#pagination{
-  margin-left: 80px;
-  width: 20%;
-}
 .middle-wrapper{
   display: flex;
   flex-direction: column;
@@ -1232,7 +1227,13 @@ text-decoration: none !important;
 .list-property{
   font-size: 16px;
 }
+.top-section-heading{
+  margin-left: 0 !important;
+}
 
+}
+.top-section-heading{
+  margin-left: 100px;
 }
 
 
