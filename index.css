@@ -1191,6 +1191,14 @@ text-decoration: none !important;
   padding: 0;
   width: 50%;
 }
+
+.filter-button{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+}
 /* Styles for small screens */
 
 @media screen and (max-width: 991px) {
@@ -1230,7 +1238,10 @@ text-decoration: none !important;
 .top-section-heading{
   margin-left: 0 !important;
 }
-
+.price-filter-heading{
+  margin-top: 0px;
+  font-size: 14px;
+}
 }
 .top-section-heading{
   margin-left: 100px;
