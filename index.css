@@ -4,6 +4,7 @@ body{
 
 #nav-1{
   padding: 0.5rem;
+  font-family: 'Poppins',sans-serif;
 }
 
 .brand-logo{
@@ -903,6 +904,7 @@ opacity: 0.7;
 
 .new-articles{
     padding-top: 90px;
+    font-family: 'Poppins',sans-serif;
 }
  .card .learn-more a{
 text-decoration: none;
@@ -959,7 +961,7 @@ body {
 
 body {
   background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: 'Poppins',sans-serif;
   font-size: 14px;
   color: #000;
   margin: 0;
@@ -1004,6 +1006,7 @@ body {
     padding-bottom: 5%;
     padding-right: 10%;
     margin-top: 40px;
+    font-family: 'Poppins',sans-serif;
    
 }
 
@@ -1049,6 +1052,7 @@ body {
     color: #9b9b9b!important;
     font-size: 14px;
     font-weight: 500;
+    font-family: 'Poppins',sans-serif;
 }
 .footer a{
 
@@ -1133,6 +1137,10 @@ text-decoration: none !important;
   border-radius: 20px;
 }
 
+.full-width-card{
+  font-family: 'Poppins',sans-serif;
+}
+
 .full-width-card:hover{
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   cursor: pointer;
@@ -1140,6 +1148,7 @@ text-decoration: none !important;
 .dropdown-1{
   border-radius: 5px;
   padding: 10px;
+  font-family: 'Poppins',sans-serif;
 }
 
 .top-section{
@@ -1198,6 +1207,10 @@ text-decoration: none !important;
   align-items: center;
   gap: 5px;
   width: 100%;
+}
+
+.top-section-heading{
+  font-family: 'Poppins',sans-serif;
 }
 /* Styles for small screens */
 
