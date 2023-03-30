@@ -1139,6 +1139,9 @@ text-decoration: none !important;
 
 .full-width-card{
   font-family: 'Poppins',sans-serif;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid gray;
 }
 
 .full-width-card:hover{
