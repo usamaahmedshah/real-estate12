@@ -155,6 +155,10 @@ body{
   top: -2px !important;
 }
 
+.form-control:focus{
+  box-shadow: none !important;
+}
+
 
 .collapse .row select {
   display: inline-block;
@@ -520,7 +524,7 @@ input[type=range]::-webkit-slider-thumb {
     border-radius: 0;
     margin-left: 0;
   }
-  
+
   .dropdown-menu li{
     position: relative;
   }
@@ -1017,6 +1021,17 @@ body {
 .form-group .footer-form-control{
     height: 150px;
 }
+
+.footer-form-control:focus{
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.btn-info:focus{
+  outline: none  !important;
+  box-shadow: none !important;
+}
+
 .location{
     background: white;
     width: 100%;
