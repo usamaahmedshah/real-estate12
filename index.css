@@ -1231,6 +1231,10 @@ text-decoration: none !important;
 .top-section-heading{
   font-family: 'Poppins',sans-serif;
 }
+
+.top-section-heading{
+  margin-left: 100px;
+}
 /* Styles for small screens */
 
 @media screen and (max-width: 991px) {
@@ -1275,11 +1279,340 @@ text-decoration: none !important;
   font-size: 14px;
 }
 }
-.top-section-heading{
-  margin-left: 100px;
+
+
+
+
+ /******************************************************************************/
+/* single property 2 page css start */
+    /************************************************************************************/
+
+.breadcrumb{
+    background: none!important;
+    margin-bottom: 0px!important;
+    color: black !important;
+    
+}
+.breadcrumb a{
+    text-decoration: none!important;
+    color: black;
+    opacity: 0.6;
+}
+
+/* thumbnail iamges slider */
+   
+
+.carousel-inner img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        border-radius: 5px;
+}
+  
+.favourite{
+  position: absolute;
+  top: 30px;
+  right: 120px;
+  background-color: white;
+padding: 10px;
+border-radius: 100%;
+color: black;
+}
+
+
+.fa-share-alt{
+  position: absolute;
+  top: 30px;
+  right: 70px;
+  background: white;
+  padding: 10px;
+  border-radius: 100%;
+  color: black;
+}
+
+.fa-print{
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  background: white;
+  padding: 10px;
+  border-radius: 100%;
+  color: black;
+}
+  
+     
+  
+#custCarousel .carousel-indicators {
+    position: static;
+    margin-top:20px;
+
+}
+  
+#custCarousel .carousel-indicators > li {
+  width:100px;
+
+}
+
+  #custCarousel .carousel-indicators li img {
+    display: block;
+    opacity: 0.5;
+    
+  }
+
+  #custCarousel .carousel-indicators li.active img {
+    opacity: 1;
+  }
+
+  #custCarousel .carousel-indicators li:hover img {
+    opacity: 0.75;
+  }
+
+  .carousel-item img{
+
+    width:100%;
+  }
+
+
+    /* gray background */
+.primary-bg{
+    background-color:#f8f8f8;
+}
+
+    
+/* villa on hollywood */
+.villahollywood{
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    background-color: white;
+   
+}
+.villabadge{
+    
+    padding: 6px!important;
+}
+
+#future-badge{
+    background-color: #ff6935;
+}
+.hollywood{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    
+}
+
+.address{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 
 
+/* //facts and features */
+
+
+.facts-and-features{
+   background: white;
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+
+.feature-items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+.icons{
+     box-shadow:0 5px 15px 0 rgba(51,51,51,.08)!important;;
+}
+
+
+.feature-details{
+    line-height: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+                                     /* Additional Details */
+
+
+.Additional-Details{
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+
+
+
+
+                                       /* Offices-Amenities */
+
+.Offices-Amenities{
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+
+
+}
+.fa-check{
+    color: #0ec6d5;
+    padding: 10px;
+
+}
+  /* floor plans */
+  .floor-plans{
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+  }
+
+@media screen and (max-width:772px){
+    .floor-span{
+        display: none;
+    }
+}
+
+#dropdown-button{
+    
+
+    background: #f8f8f8;
+   
+}
+
+
+
+         /* Review */
+ 
+ 
+.review{
+  border-radius: 5px;
+}                              
+.fa-star{
+    padding: 3px;
+}
+
+.fa-star:hover{
+color: #f6b500;
+}
+
+.review-inputs{
+    background: #f8f8f8!important;
+}
+
+.review-button{
+    width: 150px;
+    height: 50px;
+    font-size: 18px!important;
+    font-weight: 400!important;
+}
+
+
+/* calculater */
+
+
+.mortgage-calculator{
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+}
+#exampleFormControlSelect1{
+    height: 50px!important;
+}
+
+.calculater-inputs{
+    background: #f8f8f8!important;
+}
+
+.calculator-button{
+    width: 150px;
+    height: 50px;
+    font-size: 18px!important;
+    font-weight: 400!important;
+}
+.dollar-icon{
+    position: absolute;
+    top: 60px;
+    left: 20px;
+}
+.dollar-icon2{
+    position: absolute;
+    top: 60px;
+    left: 20px;
+}
+.percent-icon{
+    position: absolute;
+    top: 60px;
+    left: 20px;
+}
+
+
+
+
+/* silimar home */
+
+
+.similar-home{
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+}
+.similar-home-img{
+  position: relative;
+}
+.similar-home-badge{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.similarhome-card-price{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  
+}
+.whislist {
+  background: white;
+  border-radius: 100%;
+  padding: 10px;
+    color: black;
+  border: 1px solid #eee;
+}
+
+.compare{
+  background: white;
+  border-radius: 100%;
+  padding: 10px;
+    color: black;
+  border: 1px solid #eee;
+}
+
+
+
+ /* slider */
+
+ 
+
+   /* footer */
+  
+  
+.single-property-footer{
+    background: #000;
+   
+}
 
 
