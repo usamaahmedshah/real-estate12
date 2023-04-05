@@ -198,11 +198,13 @@ body{
   color: none;
 }
 
-/* .btn:hover,
-.btn:focus {
-  color: white;
-} */
+.icon-dropdown{
+  width: 20px;height: 20px;
+}
 
+.icon-dropdown-1{
+  width: 20px;height: 20px;
+}
 
 /* range-slider */
 /* code for slider */
@@ -421,20 +423,12 @@ input[type=range]::-webkit-slider-thumb {
     position: relative;
   }
   .dropdown-toggle-3{
-    top: 10px;
-
+    background-color: white;
+    margin-bottom: 10px;
   }
-  .toggle-icon{
-    position: absolute;
-    left: 50%;
-    border-radius: 0;
-    text-align: center;
-    line-height: 50px; /* changed from 10px to 50px */
-    cursor: pointer;
-  }
-  .btn{
-    font-size: 0;
-    border: 0;
+  .icon-dropdown{
+    height: 35px;
+    width: 20px;
   }
   .sale-buttons{
     display: none !important;
@@ -578,18 +572,13 @@ input[type=range]::-webkit-slider-thumb {
     position: absolute;
   }
   
-  .toggle-icon{
-    top: -8px;
-    left: 13px;
-    height: 56px;
-    width: 35px;
+  .dropdown-toggle-3{
     background-color: white;
-    display: inline-block;
-    font-size: 25px;
-    display: flex; /* added this line */
-    justify-content: center; /* added this line */
-    align-items: center;
-    position: relative;
+    margin-bottom: 10px;
+  }
+  .icon-dropdown{
+    height: 35px;
+    width: 20px;
   }
   .btn:focus{
     box-shadow: none !important;
@@ -669,17 +658,13 @@ input[type=range]::-webkit-slider-thumb {
   outline: none;
   cursor: pointer;
   padding: 10px 20px;
-  border-radius: 35px;
+  border-radius: 50%;
 }
 
-#scroll-to-top-btn i {
-  font-size: 20px;
+#scroll-to-top-btn:hover{
+  background-color: #1e1d85;
 }
 
-#scroll-to-top-btn:hover {
-  color: white;
-  background-color: #0ec6d5;
-}
 
 .btn-outline-secondary:not(:disabled):not(.disabled).active{
   background-color: #9BE0C8;

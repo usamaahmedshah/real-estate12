@@ -12,13 +12,6 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Aos animation css link -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     <title>FullWidthList</title>
     <link rel="stylesheet" href="index.css">
@@ -31,7 +24,7 @@
   <nav class="navbar navbar-expand-lg navbar-light" id="nav-1">
     <div class="container-fluid" >
         <div style="display: flex;flex-direction: row;align-items: center;">
-            <div class="col-lg-4"><a class="navbar-brand" href="home_page"><img class="brand-logo" src="logo.png"></a></div>                
+            <div class="col-lg-4"><a class="navbar-brand" href="home_page.html"><img class="brand-logo" src="logo.png"></a></div>                
         </div>
         <button class="navbar-toggler d-lg-none d-md-block" style="color: white; margin-left: 100px;" type="button" data-toggle="collapse" data-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon text-white"></span>
@@ -40,7 +33,7 @@
                 <div class="col-lg-8">
                 <ul class="navbar-nav" id="nav-2">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="home_page" data-toggle="dropdown" id="nav-link-1">  HOME  </a>
+                        <a class="nav-link dropdown-toggle" href="home_page.html" data-toggle="dropdown" id="nav-link-1">  HOME  </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#"> Home 1 </a></li>
                             <li><a class="dropdown-item" href="#"> Home 2 </a></li>
@@ -68,7 +61,7 @@
                                 <div class="col-lg-3 col-sm-12">
                                     <li><a class="dropdown-item" href="#"  style="margin-top: 2px;font-size: 22px;">Grid view</a></li>
                                     <hr class="navbar-hr">
-                                    <li><a class="dropdown-item" href="full_width_list"> Full Width List 1 </a></li>
+                                    <li><a class="dropdown-item" href="full_width_list.html"> Full Width List 1 </a></li>
                                     <li><a class="dropdown-item" href="#"> Full Width List 2 </a></li>
                                     <li><a class="dropdown-item" href="#"> Full Width List 3 </a></li>
                                     <li><a class="dropdown-item" href="#"> Full Width List 4 </a></li>
@@ -191,7 +184,7 @@
                         </ul>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="#" id="nav-link-1">Sign IN</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#" id="nav-link-1"><i class="fa-sharp fa-regular fa-heart"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" id="nav-link-1"><img src="heart.svg"></a></a></li>
                 </ul>
                 </div>               
         </div> <!-- navbar-collapse.// -->
@@ -413,15 +406,15 @@
               <div class="col-md-6">
                 <div class="d-flex align-items-center justify-content-end">
                   <div class="dropdown me-2">
-                    <button class="btn dropdown-toggle filter-button" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa-solid fa-bars-staggered"></i>SortBY:<span style="font-weight: 600;">Top Selling</span></button>
+                    <button class="btn dropdown-toggle filter-button" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="bars-staggered.svg" alt="bars">SortBY:<span style="font-weight: 600;">Top Selling</span></button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                       <a class="dropdown-item" href="#">High</a>
                       <a class="dropdown-item" href="#">Low</a>
                       <a class="dropdown-item" href="#">Medium</a>
                     </div>
                   </div>
-                  <button class="btn" id="btn-2" style="width: 10%;"><i class="fa-solid fa-list"></i></button>
-                  <button class="btn" id="btn-2" style="width: 10%;"><i class="fa-solid fa-bars"></i></button>
+                  <button class="btn" id="btn-2" style="width: 10%;"><img src="grid.svg" alt="grid"></button>
+                  <button class="btn" id="btn-2" style="width: 10%;"><img src="list.svg" alt="list"></button>
                 </div>
               </div>
             </div>
@@ -786,7 +779,7 @@
 </div>
 
   <button onclick="scrollToTop()" id="scroll-to-top-btn">
-    <i class="fas fa-arrow-up"></i>
+    <img src="arrow.svg" alt="arrow">
   </button> 
     <!--  -->
     <!-- bootstrap scripts -->
