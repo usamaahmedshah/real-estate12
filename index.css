@@ -1021,6 +1021,9 @@ body {
   box-shadow: none !important;
 }
 
+#footer-sub-btn{
+  top: -4%;
+}
 
 .location{
     background: white;
