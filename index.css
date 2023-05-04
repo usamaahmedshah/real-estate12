@@ -571,9 +571,9 @@ input[type=range]::-webkit-slider-thumb {
     display: none;
   } */
 
-  .form-control{
+  /* .form-control{
     position: absolute;
-  }
+  } */
   
   .dropdown-toggle-3{
     background-color: white;
@@ -1786,4 +1786,36 @@ justify-content: space-between;
 background-color: rgba(0, 0, 0, 0.5);
 padding: 20px;
 border-radius: .5rem;
+}
+
+
+/*******************************************************************************/
+                 /* contact-us page css start*/
+/*********************************************************************************/
+
+
+.contact-us-hero{
+  background-image: url(images/BG41.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom:350px;
+}
+
+.wrapper{
+  transform: translateY(50%);
+}
+
+.contact-heading{
+  color: white;
+}
+
+.contact-card{
+  width: 100%;
+  height: auto;
+  
+border: none !important;
+box-shadow:0 5px 15px 0 rgba(51,51,51,.08)!important;
+transition: 0.3s;
+
 }
