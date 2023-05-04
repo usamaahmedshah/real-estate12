@@ -1802,8 +1802,10 @@ border-radius: .5rem;
   margin-bottom:350px;
 }
 
-.wrapper{
+.contact-wrapper{
   transform: translateY(50%);
+  background-color: white;
+  padding: 50px;
 }
 
 .contact-heading{
@@ -1822,8 +1824,4 @@ transition: 0.3s;
 
 .contact-icon{
   color: #0ec6d5;
-}
-
-.contact-wrapper{
-  background-color: white;padding: 50px;
 }
